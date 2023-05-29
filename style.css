@@ -1,4 +1,19 @@
-header{
+.cabecalho{
     background-color: #383D58;
     color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.estetoscopio{
+    width: 200px;
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    padding: 24px 0;
+    font-size: 24px;
+
 }
